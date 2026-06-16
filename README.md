@@ -75,11 +75,17 @@ Verified in GTKWave — confirms the FSM cycles through all four states in order
 ![Waveform - Traffic Light FSM](waveform/traffic_wave.png)
 
 ## Repository Structure
+
 ├── rtl/         # FSM design (Verilog)
+
 ├── tb/          # Testbench
+
 ├── waveform/    # GTKWave screenshots
+
 ├── traffic_sim  # Simulation binary/output
+
 ├── wave.vcd     # Raw waveform dump
+
 └── README.md
 
 ---
