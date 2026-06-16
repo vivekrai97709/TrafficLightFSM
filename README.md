@@ -93,7 +93,7 @@ Verified in GTKWave — confirms the FSM cycles through all four states in order
 ## How to Run
 
 ```bash
-iverilog -o traffic_sim rtl/traffic_light_fsm.v tb/traffic_light_fsm_tb.v
+iverilog -o traffic_sim rtl/traffic1.v tb/traffic1_tb.v
 vvp traffic_sim
 gtkwave wave.vcd
 ```
